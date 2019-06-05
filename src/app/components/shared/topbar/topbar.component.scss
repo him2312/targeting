@@ -1,0 +1,27 @@
+.topbar {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  .topbar-item {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-top: 17px;
+    cursor: pointer;
+    font-size: 18px;
+    background: #c4caff;
+    margin: 0px 10px;
+    box-shadow: 1px 1px 3px #797979;
+    &:hover {
+      background: #5768ff;
+      color: white;
+    }
+  }
+}
+
+
+.router-link-active {
+  background: #e0e0e0;
+}
